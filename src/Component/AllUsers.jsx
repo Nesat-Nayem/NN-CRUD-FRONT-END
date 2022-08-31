@@ -41,7 +41,7 @@ const AllUsers = () => {
   const deleteUserData = async (id) => {
     await deleteUser(id);
     getAllUsers();
-    Swal.fire("Good job!", "Delete User!", "success");
+    Swal.fire("Good job!", "User deleted Successfully!", "success");
   };
 
   const getAllUsers = async () => {
