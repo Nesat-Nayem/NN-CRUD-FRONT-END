@@ -1,5 +1,5 @@
 import react, { useState, useEffect } from 'react';
-import { Table, TableHead, TableCell, Paper, TableRow, TableBody, Button, styled, Container, TableContainer } from '@mui/material'
+import { Table, TableHead, TableCell, Paper, TableRow, TableBody, Button, styled } from '@mui/material'
 import { getUsers, deleteUser } from '../Service/api';
 import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2';
@@ -51,7 +51,6 @@ const AllUsers = () => {
         <StyledTable>
             <TableHead>
                 <THead>
-                    {/* <TableCell>Id</TableCell> */}
                     <TableCell>Name</TableCell>
                     <TableCell>Username</TableCell>
                     <TableCell>Email</TableCell>

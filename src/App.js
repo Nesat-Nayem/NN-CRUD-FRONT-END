@@ -1,10 +1,11 @@
 import AllUsers from './Component/AllUsers';
-import AddUser from './Component/AddUser';
+// import AddUser from './Component/AddUser';
 import EditUser from './Component/EditUser';
 import NavBar from './Component/NavBar';
 import NotFound from './Component/NotFound'; 
 // import CodeForInterview from './Component/CodeForInterview';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import AddUser from './Component/AddUser';
 
 function App() {
   return (
